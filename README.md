@@ -1,11 +1,8 @@
 # AzureML
 Construct a decision tree for abalone dataset. Clustering the dataset using K Means on attribute Plant Name based on their locations. Classification of the dataset using KNN on attribute Class Name.
 
-## AZURE MACHINE LEARNING
+## PROBLEM 1
 
-```
-PROBLEM 1
-```
 **Objective**
 
 Construct a decision tree for abalone dataset. Also,
@@ -35,37 +32,55 @@ There are 29 ring classes in the given dataset.
 ```
 A. Model
 ```
+![](https://github.com/prakhardhama/AzureML/blob/master/snips/1.a.png)
 
 B. Sample Tree
 
+![](https://github.com/prakhardhama/AzureML/blob/master/snips/1.b.png)
+
 C. Accuracy
 Our Accuracy: **27 .5%**
+
+![](https://github.com/prakhardhama/AzureML/blob/master/snips/1.c.png)
 
 ```
 Accuracy Mentioned with dataset for previous experiments: 21~26%
 ```
 
+![](https://github.com/prakhardhama/AzureML/blob/master/snips/1.c.i.png)
+
 ```
 D. Confusion Matrix
 ```
+
+![](https://github.com/prakhardhama/AzureML/blob/master/snips/1.d.png)
+
 **Problem II: With 3 Groups**
 
 ```
 A. R Script
 ```
+![](https://github.com/prakhardhama/AzureML/blob/master/snips/2.a.png)
 
 B. Model
 
+![](https://github.com/prakhardhama/AzureML/blob/master/snips/2.b.png)
+
 C. Sample Tree
 
+![](https://github.com/prakhardhama/AzureML/blob/master/snips/2.c.png)
 
 D. Accuracy
 Our accuracy: **65.8%**
+
+![](https://github.com/prakhardhama/AzureML/blob/master/snips/2.d.png)
 
 ```
 Accuracy Mentioned with dataset for previous experiments: 59~65%
 ```
 E. Confusion Matrix
+
+![](https://github.com/prakhardhama/AzureML/blob/master/snips/2.e.png)
 
 
 ## PROBLEM 2
@@ -91,11 +106,13 @@ There are 2 classes in the given dataset, one US and other is Canada.
 ```
 A. Model
 ```
+![](https://github.com/prakhardhama/AzureML/blob/master/snips/3.a.png)
 
 B. Result
 Plants clustered in cluster 0: **16.8%**
 Plants clustered in cluster 1: **83.2%**
 
+![](https://github.com/prakhardhama/AzureML/blob/master/snips/3.b.png)
 
 ## PROBLEM 3
 
@@ -119,7 +136,11 @@ There are 3 classes in the given dataset i.e. (49 balanced, 288 left, 288 right)
 ```
 A. Accuracy
 ```
+![](https://github.com/prakhardhama/AzureML/blob/master/snips/4.a.png)
 ```
 B. Confusion Matrix
 ```
+![](https://github.com/prakhardhama/AzureML/blob/master/snips/4.b.png)
+
+**Note:** Interactive model and results are available in mhtml files.
 
