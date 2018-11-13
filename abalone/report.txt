@@ -1,0 +1,11 @@
+Objective
+
+Total classes in dataset
+	training data(%)
+	testing data(%)
+
+Methodology
+	tools used
+	features(if any)/preprocessing
+Results
+	accuracy chart

@@ -1,0 +1,14 @@
+# Map 1-based optional input ports to variables
+abalone <- maml.mapInputPort(1) # class: data.frame
+RingsGroup <- abalone$Rings
+RingsGroup[RingsGroup<=8] <- 1
+RingsGroup[RingsGroup==9] <- 2
+RingsGroup[RingsGroup==10] <- 2
+RingsGroup[RingsGroup>=11] <- 3
+RingsGroup[RingsGroup==1] <- "Class 1"
+RingsGroup[RingsGroup==2] <- "Class 2"
+RingsGroup[RingsGroup==3] <- "Class 3"
+abalone$Rings <- NULL
+data.set <- cbind(abalone, RingsGroup)
+# Select data.frame to be sent to the output Dataset port
+maml.mapOutputPort("data.set");
